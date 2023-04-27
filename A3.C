@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+main()
+/*
+12345
+1234
+123
+12
+1
+*/
+{
+	int r,c;
+	
+	for(r=5;r>=1;r--)
+	{
+		for(c=1;c<=r;c++)
+		{
+			printf("%d",c);
+		}
+		printf("\n");
+	} 
+	
+}
